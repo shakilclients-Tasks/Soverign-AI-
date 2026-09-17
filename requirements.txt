@@ -1,0 +1,23 @@
+# Sovereign AI local FastAPI backend
+fastapi>=0.111.0,<1.0
+uvicorn[standard]>=0.30.0,<1.0
+pydantic>=2.7.0,<3.0
+pydantic-settings>=2.2.0,<3.0
+python-multipart>=0.0.9
+httpx>=0.27.0,<1.0
+
+# Local documents, OCR, embeddings, and vector search
+PyMuPDF>=1.24.0
+pillow>=10.3.0
+opencv-python-headless>=4.9.0
+pytesseract>=0.3.10
+rapidocr>=3.9.0,<4.0
+onnxruntime>=1.20.0,<2.0
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+numpy>=1.26.0
+
+# Local diagnostics and tests
+psutil>=5.9.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
